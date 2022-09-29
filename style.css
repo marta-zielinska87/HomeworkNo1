@@ -1,0 +1,137 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 32px;
+  gap: 48px;
+
+  position: relative;
+  width: 1280px;
+  height: 994px;
+
+  background: #2300b1;
+  border-radius: 8px;
+  font-family: Poppins;
+}
+
+.web-title {
+  width: 392px;
+  height: 48px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  /* identical to box height, or 100% */
+
+  color: #75bdff;
+}
+
+.logo {
+  width: 59px;
+  height: 22px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 22px;
+  /* identical to box height, or 92% */
+
+  color: #ed1871;
+}
+
+.description {
+  /* Lorem */
+
+  width: 1216px;
+  height: 67px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 122% */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.footer {
+  /* Footer */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 0px;
+
+  width: 1216px;
+  height: 59.04px;
+
+  background: #ffffff;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.footer-text-1 {
+  /* Stopka twojej strony */
+
+  width: 141px;
+  height: 22px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+
+  color: #2300b1;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.footer-text-2 {
+  /* 2022, infoShare */
+
+  width: 110px;
+  height: 22px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+
+  color: #2300b1;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
